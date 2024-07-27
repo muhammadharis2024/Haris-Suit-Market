@@ -1,0 +1,296 @@
+/* 
+.bd{
+    background:linear-gradient(rgb(175, 248, 211),rgb(179, 237, 255));
+    
+    
+} */
+.bd2 {
+    background: linear-gradient(rgb(179, 237, 255), rgb(255, 197, 253));
+}
+
+.addtocart {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.tt:hover {
+    font-size: 18px;
+}
+
+.tt1:hover {
+    font-size: 20px;
+}
+
+.hdhd {
+    text-shadow: 0 0 7px rgb(69, 103, 255),
+        0 0 10px rgb(61, 90, 255),
+        0 0 21px rgb(93, 136, 255),
+        0 0 42px rgb(139, 147, 255),
+        0 0 82px rgb(155, 161, 255),
+        0 0 92px rgb(199, 208, 253),
+        0 0 102px rgb(222, 223, 255),
+        0 0 110px rgb(243, 246, 255);
+}
+
+
+
+
+
+/* My Cards Css */
+#cards_landscape_wrap-2 {
+    text-align: center;
+    background-blend-mode: multiply;
+    background-color: #00000009;
+    /* background:#edc0bf;
+      background: linear-gradient(90deg, #ffeded88 0,#e6e9fc98 58%); */
+}
+
+#cards_landscape_wrap-2 .container {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#cards_landscape_wrap-2 a {
+    text-decoration: none;
+    outline: none;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+    border-radius: 5px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box {
+    background: #ffffff;
+    overflow: hidden;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+    border-radius: 5px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box img {
+    -webkit-transition: all .9s ease;
+    -moz-transition: all .9s ease;
+    transition: all .9s ease;
+    -ms-transition: all .9s ease;
+    width: 100%;
+    height: 200px;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+    opacity: 0.7;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box {
+    text-align: center;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+    padding: 30px 18px;
+}
+
+#cards_landscape_wrap-2 .card-flyer {
+    background: #FFFFFF;
+    margin-top: 50px;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover {
+    background: #fff;
+    box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    margin-top: 50px;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box p {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box h6 {
+    margin-top: 0px;
+    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Roboto Black', sans-serif;
+    letter-spacing: 1px;
+    color: #00acc1;
+}
+
+
+.carddetails {
+    background: linear-gradient(rgb(176, 255, 238), rgb(155, 214, 241));
+}
+
+
+.myoverlay {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.popupmain {
+    position: fixed;
+    top: 10px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+
+
+}
+
+.ab1 {
+    cursor: pointer;
+}
+
+
+::placeholder {
+    color: white;
+}
+
+
+
+.cross {
+    position: absolute;
+    top: 0px;
+    right: 25px;
+    cursor: pointer;
+}
+
+
+
+.body1 {
+    background: linear-gradient(270deg, #bffafa, #c0f7e3, #f6dffc, #ffeebe, #f1d2fc);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+
+}
+
+.body1 {
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+
+.mybdyc {
+    background: linear-gradient(270deg, #bffafa, #c0f7e3, #f6dffc, #ffeebe, #f1d2fc);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+
+}
+
+.mybdyc {
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
